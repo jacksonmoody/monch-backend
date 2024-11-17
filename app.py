@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
+<<<<<<< HEAD
     # model = load_model('food101_classifier.h5')
     # with open('monch-backend/food_nums.json', 'r') as f:
     #     food_nums = json.load(f)
@@ -21,4 +22,6 @@ def main():
     # prediction = model.predict(img_array)
     # predicted_class = np.argmax(prediction)
     # print(food_nums[str(predicted_class)])
+=======
+>>>>>>> 8b16f4ec6cf6a539f6a585a6993ad847b2f9128d
     return 'Hello, World!'
